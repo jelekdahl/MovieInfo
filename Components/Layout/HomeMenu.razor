@@ -1,17 +1,18 @@
 ﻿@inject IJSRuntime JS
 @using System.Linq;
 
-<nav id="topNavMenu" class="navbar navbar-expand-md navStyle sticky-top" data-bs-theme="dark">
+<nav id="homeMenu" class="navbar navbar-expand-md navStyle sticky-top" data-bs-theme="dark">
     <div class="container-xxl">
         <a href="/" class="me-3 my-1">
             <AppLogoCorner />
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
-                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle Navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle Navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <!--Menu Links-->
-        <div class="collapse navbar-collapse" id="navbarContent">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto my-1 my-md-0">
                 <li class="nav-item">
                     <NavLink class="nav-link" href="/" Match="NavLinkMatch.All">
@@ -84,7 +85,7 @@
     {
         if (firstRender)
         {
-            await JS.InvokeVoidAsync("enableTooltips", "#topNavMenu");
+            await JS.InvokeVoidAsync("enableTooltips", "#homeMenu");
         }
     }
 }

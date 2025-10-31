@@ -8,7 +8,7 @@
 .title {
     font-family: var(--je-title-font);
     font-size: 3rem;
-    color: var(--je-theme-850);
+    color: var(--je-light-color);
     line-height: 3rem;
 }
 

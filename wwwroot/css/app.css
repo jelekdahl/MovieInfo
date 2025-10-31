@@ -7,6 +7,10 @@
     --je-font-size: 1.1rem;
 
     --je-title-color: var(--je-theme-850);
+
+    --je-a-home-bg: var(--je-reel-time-core);
+    --je-a-home-hover: var(--je-reel-time-core-hover);
+    --je-a-home-active: var(--je-reel-time-core-active);
 }
 
 html, body {
@@ -23,6 +27,31 @@ h1, h2, h3, h4, h5, h6 {
 .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: var(--je-title-font);
 }
+
+.btn-home {
+    --bs-btn-bg: var(--je-a-home-bg);
+    --bs-btn-border-color: var(--je-a-home-bg);
+    --bs-btn-hover-bg: var(--je-a-home-hover);
+    --bs-btn-hover-border-color: var(--je-a-home-hover);
+    --bs-btn-active-bg: var(--je-a-home-active);
+    --bs-btn-active-border-color: var(--je-a-home-active);
+    --bs-btn-disabled-bg: var(--je-a-home-bg);
+    --bs-btn-disabled-border-color: var(--je-a-home-bg);
+    --bs-btn-hover-color: var(--je-light-color);
+    color: var(--je-dark-color);
+}
+
+.link-home {
+    color: var(--je-a-home-bg);
+}
+
+    .link-home:hover {
+        color: var(--je-a-home-hover);
+    }
+
+    .link-home:active {
+        color: var(--je-a-home-active);
+    }
 
 #app {
     height: 100%;

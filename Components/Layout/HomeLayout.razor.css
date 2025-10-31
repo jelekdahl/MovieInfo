@@ -1,0 +1,26 @@
+﻿.homeStyle {
+    min-height: 100%;
+    background: linear-gradient(to right,
+        #dabe76cc 0%,
+        #424242cc 5%,
+        #424242cc 50%,
+        #424242cc 95%,
+        #dabe76cc 100%),
+        url("/images/NowPlayingBG.jpg");
+    background: linear-gradient(to right,
+        color-mix(in srgb, var(--je-reel-time-core) 80%, transparent) 0%,
+        color-mix(in srgb, var(--je-theme-700) 80%, transparent) 5%,
+        color-mix(in srgb, var(--je-theme-700) 80%, transparent) 50%,
+        color-mix(in srgb, var(--je-theme-700) 80%, transparent) 95%,
+        color-mix(in srgb, var(--je-reel-time-core) 80%, transparent) 100%),
+        url("/images/NowPlayingBG.jpg");
+    background: linear-gradient(to right,
+        rgba(from var(--je-reel-time-core) r g b / 0.80) 0%,
+        rgba(from var(--je-theme-700) r g b / 0.80) 5%,
+        rgba(from var(--je-theme-700) r g b / 0.80) 50%,
+        rgba(from var(--je-theme-700) r g b / 0.80) 95%,
+        rgba(from var(--je-reel-time-core) r g b / 0.80) 100%),
+        url("/images/NowPlayingBG.jpg");
+    background-size: 100% 100%;
+    color: var(--je-light-color);
+}

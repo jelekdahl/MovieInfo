@@ -22,20 +22,22 @@
     --je-theme-850: var(--je-reel-time-850);
     /* dark backgrounds */
     --je-theme-900: var(--je-reel-time-900);
-   
+
     /* #region reel-time */
-    --je-reel-time-core: #dabe76; /* gold accent */
-    --je-reel-time-100: hsl(358, 100%, 76%);    /* reddish colors for the rest */
-    --je-reel-time-150: hsl(358, 100%, 71%);
-    --je-reel-time-200: #fc4b57;
-    --je-reel-time-300: hsl(358, 100%, 66%);
-    --je-reel-time-400: #dabe76;               /* except this (another gold accent) */
-    --je-reel-time-500: hsl(358, 100%, 46%);
-    --je-reel-time-600: hsl(358, 100%, 36%);
-    --je-reel-time-700: hsl(358, 100%, 26%);
-    --je-reel-time-800: hsl(358, 100%, 16%);
-    --je-reel-time-850: hsl(358, 100%, 12%);
-    --je-reel-time-900: hsl(358, 100%, 6%);
+    --je-reel-time-core: #dabe76;               /* gold accent */
+    --je-reel-time-core-hover: #c9a25e;         /* darker for hover */
+    --je-reel-time-core-active: #b88746;        /* even darker for active */
+    --je-reel-time-100: hsl(0, 0%, 76%);    /* reddish colors for the rest */
+    --je-reel-time-150: hsl(0, 0%, 71%);
+    --je-reel-time-200: #fff4db;
+    --je-reel-time-300: hsl(0, 0%, 66%);
+    --je-reel-time-400: #dabe76;                /* except this (another gold accent) */
+    --je-reel-time-500: hsl(0, 0%, 46%);
+    --je-reel-time-600: hsl(0, 0%, 36%);
+    --je-reel-time-700: hsl(0, 0%, 26%);
+    --je-reel-time-800: hsl(0, 0%, 16%);
+    --je-reel-time-850: hsl(0, 0%, 12%);
+    --je-reel-time-900: hsl(0, 0%, 0%);
     /* #endregion reel-time */
 
     /* #region blue */
