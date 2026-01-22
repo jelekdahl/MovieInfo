@@ -225,6 +225,17 @@ a {
     --bs-btn-disabled-border-color: var(--je-theme-600);
 }
 
+.btn-outline-primary {
+    --bs-btn-color: var(--je-theme-core);
+    --bs-btn-border-color: var(--je-theme-core);
+    --bs-btn-hover-bg: var(--je-theme-core);
+    --bs-btn-hover-border-color: var(--je-theme-core);
+    --bs-btn-active-bg: var(--je-theme-core);
+    --bs-btn-active-border-color: var(--je-theme-core);
+    --bs-btn-disabled-color: var(--je-theme-core);
+    --bs-btn-disabled-border-color: var(--je-theme-core);
+}
+
 .btn-dark {
     --bs-btn-bg: var(--je-theme-850);
     --bs-btn-border-color: var(--je-theme-850);
